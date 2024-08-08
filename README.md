@@ -1,21 +1,27 @@
-# Cài đặt
+## Setup
+
 ```
 pip install -r requirements.txt
 ```
 
-# Điều chỉnh biến môi trường
-Hãy điều chỉnh API tương ứng với LLM bạn có trong file .env
+## Environment Variable Configuration
 
-# Thêm các tính năng có sẵn trong thư mục handlers/msgHandlers.py
-Xử lý logic trong thư mục này
+Please configure the corresponding API to the LLM you are using in the `.env` file.
 
-# Khởi động server
+## Adding Features
+
+Implement additional features within the `handlers/msgHandlers.py` file. Handle all logic within this directory.
+
+## Starting the Server
+
 ```
 python main.py
 ```
 
-# Kiểm thử
-Chạy file test.py để kiểm tra server có hoạt động không
+## Testing
+
+Run the `test.py` file to check if the server is working properly:
+
 ```
 python test.py
-```
+``` 
